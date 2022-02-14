@@ -7,13 +7,41 @@
     tools:context=".Exercicio3Activity">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textoVerificacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="306dp"
-        android:text="Tela 3"
-        android:textSize="34sp"
+        android:layout_marginTop="104dp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/temperatura"
+        android:layout_width="305dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="336dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Fahrenheit"
+        android:inputType="textPersonName"
+        android:text="@string/vazio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="112dp"
+        android:onClick="converteParaCelsius"
+        android:text="Converter para ºC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

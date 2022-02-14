@@ -16,29 +16,33 @@ public class Exercicio1Activity extends AppCompatActivity {
     }
 
 
-    public void VerificaUsuarioSenha(View v) {
+    public void verificaLogin(View v){
+        // variáveis com login
+        String user = "admin";
+        String pasw = "1234";
 
-        TextView usuarioDigitado = (TextView) findViewById(R.id.userInput);
-        TextView senhaDigitado = (TextView) findViewById(R.id.passInput);
+        //Busca e atribui as textview's por id
+        TextView usuario = (TextView) findViewById(R.id.usuario);
+        TextView senha = (TextView) findViewById(R.id.senha);
+        TextView textoVerificacao  = (TextView) findViewById(R.id.textoVerificacao);
 
-        TextView resultadoOperacao = (TextView) findViewById(R.id.resultado);
+        // recupera o valor das textview's
+        String usuario1 = usuario.getText().toString();
+        String senha1 = senha.getText().toString();
 
-        String usuario = usuarioDigitado.getText().toString();
-        String senha = senhaDigitado.getText().toString();
-
-        if(usuario.equals("admin") && senha.equals("1234")) {
-            resultadoOperacao.setText("Sucesso");
-            usuarioDigitado.setText("");
-            senhaDigitado.setText("");
-        } else {
-            resultadoOperacao.setText("Usuario ou senha incorretos");
-            usuarioDigitado.setText("");
-            senhaDigitado.setText("");
+        // Valida usuário e senha
+        if (usuario1.equals(user) && senha1.equals(pasw))
+        {
+            textoVerificacao.setText("Acesso permitido");
+        }
+        else
+        {
+            textoVerificacao.setText("Usuário ou Senha inválidos!");
         }
 
-
-
-
+        //limpar apos apertar botao
+        usuario.setText("");
+        senha.setText("");
     }
 
 }

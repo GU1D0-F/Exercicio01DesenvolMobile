@@ -8,9 +8,13 @@
         <entry key="..\:/Users/95063/AndroidStudioProjects/Exercicio01DesenvolMobile/app/src/main/res/layout/activity_exercicio3.xml" value="0.196875" />
         <entry key="..\:/Users/95063/AndroidStudioProjects/Exercicio01DesenvolMobile/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/95063/AndroidStudioProjects/Exercicio01DesenvolMobile/app/src/main/res/layout/exercicio_um.xml" value="0.33" />
+        <entry key="..\:/Users/guity/AndroidStudioProjects/Exercicio01DesenvolMobile/app/src/main/res/layout/activity_exercicio1.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/guity/AndroidStudioProjects/Exercicio01DesenvolMobile/app/src/main/res/layout/activity_exercicio2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/guity/AndroidStudioProjects/Exercicio01DesenvolMobile/app/src/main/res/layout/activity_exercicio3.xml" value="0.25" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
